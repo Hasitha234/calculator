@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(layout.activity_main)
 
-        val intent = Intent(this, MainActivity2::class.java)
+        val intent = Intent(this, MainActivity::class.java)
         val ans = 0.0
         intent.putExtra("answer", ans)
         startActivity(intent)

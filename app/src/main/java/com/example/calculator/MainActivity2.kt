@@ -16,7 +16,7 @@ class MainActivity2 : AppCompatActivity() {
         txtAnswer.setText(intent.getDoubleExtra("answer",0.0).toString())
         var btnBack = findViewById<Button>(id.btnBack)
         btnBack.setOnClickListener {
-            var intent = Intent(this,MainActivity::class.java)
+            var intent = Intent(this,MainActivity2::class.java)
             startActivity(intent)
             finish()
         }
